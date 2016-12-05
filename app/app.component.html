@@ -1,0 +1,10 @@
+<div class="row">
+	<div class="columns">
+		<button (click)="toggleMove()">Press me for animation</button>
+	</div>
+	<div class="columns">
+		<div id="content" [@focusPanel]='state' [@movePanel]='state'>
+			look at me animate
+		</div>
+	</div>
+</div>
